@@ -1,0 +1,8 @@
+<form [formGroup]="userForm">
+  ss
+  <app-basic-info formGroupName="basicInfo"></app-basic-info>
+
+  <app-address></app-address>
+</form>
+
+{{ userForm.value | json }}
